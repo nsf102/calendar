@@ -9,16 +9,43 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
+            background-color: #ffffff; /* White background */
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+            margin-top: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         iframe {
             border: 0;
             width: 80%;
             height: 600px;
+            margin-bottom: 10px;
+        }
+       .work-hours {
+            font-size: 1em;
+            color: #333;
+            width: 80%;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <h1>Shared Calendar</h1>
-    <iframe src="https://calendar.google.com/calendar/embed?src=sjdrdid8uq7la73i7ggs7ngkac%40group.calendar.google.com&ctz=America%2FChicago" frameborder="0" scrolling="no"></iframe>
+    <h1>Where Is My Good Boy</h1>
+    <div class="container">
+        <iframe src="YOUR_GOOGLE_CALENDAR_URL_HERE" frameborder="0" scrolling="no"></iframe>
+        <div class="work-hours">Work is Monday to Friday 6:30 to 15:00</div>
+    </div>
 </body>
 </html>
